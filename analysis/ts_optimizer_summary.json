@@ -1,0 +1,61 @@
+{
+  "vanilla": {
+    "last_step": 9990,
+    "best_val": 1.1569,
+    "n_train": 239,
+    "n_val": 24
+  },
+  "adam": {
+    "last_step": 9990,
+    "best_val": 1.1528,
+    "n_train": 1000,
+    "n_val": 101
+  },
+  "adamw": {
+    "last_step": 9990,
+    "best_val": 1.1484,
+    "n_train": 229,
+    "n_val": 23
+  },
+  "yurii": {
+    "last_step": 9990,
+    "best_val": 1.1317,
+    "n_train": 229,
+    "n_val": 23
+  },
+  "tmm": {
+    "last_step": 9990,
+    "best_val": 1.1314,
+    "n_train": 229,
+    "n_val": 23
+  },
+  "HB": {
+    "last_step": 9990,
+    "best_val": 1.133,
+    "n_train": 1000,
+    "n_val": 101
+  },
+  "RMSProp": {
+    "last_step": 9990,
+    "best_val": 1.1492,
+    "n_train": 1000,
+    "n_val": 101
+  },
+  "Ortho": {
+    "last_step": 9990,
+    "best_val": 1.1489,
+    "n_train": 1000,
+    "n_val": 101
+  },
+  "Shampoo": {
+    "last_step": 9990,
+    "best_val": 1.1412,
+    "n_train": 346,
+    "n_val": 35
+  },
+  "Muon (from HF ckpt)": {
+    "best_val": 1.1503,
+    "last_step": 9600,
+    "note": "no local training log"
+  }
+}

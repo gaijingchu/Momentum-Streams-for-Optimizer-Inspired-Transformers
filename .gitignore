@@ -1,0 +1,42 @@
+# Training artifacts
+checkpoints/
+checkpoints_*/
+checkpoints_cache/
+*.pt
+*.ckpt
+
+# Tokenized data
+data/
+*.npy
+
+# Run logs
+logs/
+wandb/
+slurm-*.out
+*.log
+
+# Eval result dumps (large per-variant lm-eval JSON trees)
+eval_results_*/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.Python
+*.egg-info/
+build/
+dist/
+.venv/
+.uv/
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
+*.swp
+*~
+
+# Secrets
+.env
+*.token
+hf_token*

@@ -1,0 +1,43 @@
+{
+  "variant": "tmm_sam",
+  "n_params": 163812192,
+  "recorded_val_loss": 2.9395044848322867,
+  "block_size": 1024,
+  "batch_size": 8,
+  "n_batches": 200,
+  "corpora": {
+    "owt_val": {
+      "ce_mean": 2.932067996263504,
+      "ce_std": 0.14541369721466957,
+      "ppl": 18.76639923955547,
+      "n_batches": 200,
+      "n_tokens": 1638400,
+      "wall_seconds": 7.820511102676392
+    },
+    "wikitext103": {
+      "ce_mean": 3.992927839756012,
+      "ce_std": 0.09731526300929584,
+      "ppl": 54.21338532958478,
+      "n_batches": 200,
+      "n_tokens": 1638400,
+      "wall_seconds": 6.2750022411346436
+    },
+    "lambada": {
+      "ce_mean": 3.6999450767040254,
+      "ce_std": 0.04775586037287972,
+      "ppl": 40.44508292180356,
+      "n_batches": 200,
+      "n_tokens": 1638400,
+      "wall_seconds": 6.16614294052124
+    },
+    "c4_small": {
+      "ce_mean": 3.6598980951309206,
+      "ce_std": 0.1521352279797007,
+      "ppl": 38.85738291304785,
+      "n_batches": 200,
+      "n_tokens": 1638400,
+      "wall_seconds": 6.181386232376099
+    }
+  },
+  "total_seconds": 73.32463669776917
+}

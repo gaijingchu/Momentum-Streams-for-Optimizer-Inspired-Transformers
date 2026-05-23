@@ -1,0 +1,43 @@
+{
+  "variant": "vanilla",
+  "n_params": 124373760,
+  "recorded_val_loss": 3.007823583483696,
+  "block_size": 1024,
+  "batch_size": 8,
+  "n_batches": 200,
+  "corpora": {
+    "owt_val": {
+      "ce_mean": 3.0011582601070406,
+      "ce_std": 0.14637514791736664,
+      "ppl": 20.108814677579044,
+      "n_batches": 200,
+      "n_tokens": 1638400,
+      "wall_seconds": 6.632056474685669
+    },
+    "wikitext103": {
+      "ce_mean": 4.12035426735878,
+      "ce_std": 0.11064288528269792,
+      "ppl": 61.58105455805775,
+      "n_batches": 200,
+      "n_tokens": 1638400,
+      "wall_seconds": 5.122808456420898
+    },
+    "lambada": {
+      "ce_mean": 3.765571802854538,
+      "ce_std": 0.05819985743747912,
+      "ppl": 43.188394047798624,
+      "n_batches": 200,
+      "n_tokens": 1638400,
+      "wall_seconds": 4.998230695724487
+    },
+    "c4_small": {
+      "ce_mean": 3.682159260511398,
+      "ce_std": 0.15170694186265635,
+      "ppl": 39.73209345606303,
+      "n_batches": 200,
+      "n_tokens": 1638400,
+      "wall_seconds": 5.002563238143921
+    }
+  },
+  "total_seconds": 23.52106237411499
+}

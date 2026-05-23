@@ -1,0 +1,50 @@
+{
+  "vanilla-AdamW": {
+    "last_step": 24690,
+    "best_val": 3.0324,
+    "n_train": 2470,
+    "n_val": 247
+  },
+  "Adam": {
+    "last_step": 29990,
+    "best_val": 2.9911,
+    "n_train": 3000,
+    "n_val": 301
+  },
+  "AdamW": {
+    "last_step": 29990,
+    "best_val": 2.9883,
+    "n_train": 3000,
+    "n_val": 301
+  },
+  "Muon": {
+    "last_step": 9480,
+    "best_val": 3.1889,
+    "n_train": 949,
+    "n_val": 95
+  },
+  "Shampoo": {
+    "last_step": 2360,
+    "best_val": 3.7346,
+    "n_train": 237,
+    "n_val": 24
+  },
+  "HB": {
+    "last_step": 29990,
+    "best_val": 2.9453,
+    "n_train": 2813,
+    "n_val": 282
+  },
+  "RMSProp": {
+    "last_step": 29990,
+    "best_val": 3.0153,
+    "n_train": 1309,
+    "n_val": 131
+  },
+  "Ortho": {
+    "last_step": 8830,
+    "best_val": 3.2295,
+    "n_train": 374,
+    "n_val": 38
+  }
+}

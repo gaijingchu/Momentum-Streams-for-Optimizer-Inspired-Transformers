@@ -1,0 +1,43 @@
+{
+  "variant": "yurii_sam",
+  "n_params": 163812168,
+  "recorded_val_loss": 2.948148141801357,
+  "block_size": 1024,
+  "batch_size": 8,
+  "n_batches": 200,
+  "corpora": {
+    "owt_val": {
+      "ce_mean": 2.9419193041324614,
+      "ce_std": 0.14563149711395867,
+      "ppl": 18.95218643697133,
+      "n_batches": 200,
+      "n_tokens": 1638400,
+      "wall_seconds": 7.967796087265015
+    },
+    "wikitext103": {
+      "ce_mean": 3.970218218564987,
+      "ce_std": 0.09214139085267295,
+      "ppl": 52.996094309598526,
+      "n_batches": 200,
+      "n_tokens": 1638400,
+      "wall_seconds": 6.127288579940796
+    },
+    "lambada": {
+      "ce_mean": 3.7193894350528716,
+      "ce_std": 0.048758741518921817,
+      "ppl": 41.23920720590599,
+      "n_batches": 200,
+      "n_tokens": 1638400,
+      "wall_seconds": 6.008504152297974
+    },
+    "c4_small": {
+      "ce_mean": 3.652569773197174,
+      "ce_std": 0.15112447313470184,
+      "ppl": 38.573664361740555,
+      "n_batches": 200,
+      "n_tokens": 1638400,
+      "wall_seconds": 6.017421007156372
+    }
+  },
+  "total_seconds": 28.470011949539185
+}
